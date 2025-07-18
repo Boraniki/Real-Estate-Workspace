@@ -1,0 +1,21 @@
+# Core dependencies
+pandas>=1.5.0
+beautifulsoup4>=4.11.0
+cloudscraper>=1.2.0
+
+# Async and performance libraries
+aiohttp>=3.8.0
+aiofiles>=0.8.0
+asyncio-throttle>=1.0.0
+
+# Data processing
+numpy>=1.21.0
+lxml>=4.9.0
+
+# Utilities
+tqdm>=4.64.0
+psutil>=5.9.0
+
+# Optional: For better performance monitoring
+memory-profiler>=0.60.0
+line-profiler>=3.5.0 

@@ -1,0 +1,56 @@
+This project is aiming to analyze real estate data and gives customers to opinion about which districts is suitable for them and also answers their questions.
+
+Main Structure
+
+EXTRACT -> TRANSFORM -> LOAD -> ANALYZE -> PRODUCT
+
+
+EXTRACT
+
+At this stage, data will be fetched from various resources like real estate websites, forums and etc and this data will be extracted using data scraping.
+
+For better management and to be publicaly open, this data processing part will be published for general usage and configurations and raw data will be hidden.
+
+
+TRANSFORM
+
+For transformation stage, all the data should be cleaned and normalized. 
+
+After transformation, all of data can be publicaly open.
+
+Tranform and extract stage should be conducted for production and development versions.
+
+LOAD
+
+At development stage this part will be ignored and all of the data will be hold localy
+
+After deploying main application all of the process will be at cloud platforms.
+
+ANALYZE
+
+This stage will include machine learning and statistics.
+
+At some stage LLM models with transfer learning will be included but it will be conducted separately.
+
+PRODUCT
+
+Product of this project will be a website which people can search districts and find answers about real estates they are looking for
+
+For example, a visitor gives an url they are considering to rent.
+
+And this is the infos of the given url
+
+3 + 1 Moda'da Deniz Manzaralı Ev
+
+Fiyat: 45.000
+M2: 100
+Açıklama: Asansörsüz, Kadıköy meydana yakın.
+
+Our product will return with a good UI design
+
+Kadıköy Moda district average price based on the house infos: 42.000 
+AI Comment about district's infos (Security, expected natural disasters, so on.)
+A map which shows the district and given points which is analyzed
+
+
+
